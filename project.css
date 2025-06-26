@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    border: 1px solid white;
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header .header2{
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+}
+
+header img{
+    margin-left: -50px; 
+
+}
+
+.title h1{
+    background-image:url("https://smpis.com/assets/images/primary-8.jpeg"); 
+    height: 600px;
+    width: 100%; 
+    color: white;
+    text-align: end;
+    padding-right: 300px;
+    padding-top: 10px;
+    font-size: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+main div {
+    font-size: 20px;
+    left: 50%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+   
+}
+
+main .main-images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+main .main-images img{
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* main .main-images img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+} */
+
+main .Achievements{
+    background-color: rgb(0,0,139, 2);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-image: url("https://www.vancopayments.com/hs-fs/hubfs/Graduation%20-%20Cap%20throw.png?width=1640&height=924&name=Graduation%20-%20Cap%20throw.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+main .Achievements .achievements-text  {
+      color: white;
+    text-align: justify;
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 150px;
+    padding-top: 70px;
+}
+
+main .Achievements .achievements-icons{
+    padding-top: 150px;
+    color: orange;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 60px;
+    
+}
+
+#a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    border: 2px solid darkblue;
+    border-radius:30px;
+    width: 200px;
+    background-color: darkblue;
+}
+
+#gallery{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.gallery{
+   height: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+/* .gallery .gall:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+} */
+
+.gallery .gall {
+        border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    height: 400px;
+    width: 100%;
+    border: 1px solid lightskyblue;
+    border-radius: 30px;
+    background-color: lightskyblue;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+}
+
+#Parent{
+    
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.footer{
+    background-color: rgb(56, 50, 50);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+#Center{
+    align-items: start;
+    height: 160px;
+}
+
+
+
